@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ball
+  - RopePart
+  - Bubble
+  - '[LC] Axis'
+  - '[LC] GameObject'
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - BallAndPart
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3686964565
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: TriggerRopeZone
+    uniqueID: 694793567
+    locked: 0
+  - name: Frog
+    uniqueID: 317358033
+    locked: 0
+  - name: Rope
+    uniqueID: 2417563337
+    locked: 0
+  - name: Star
+    uniqueID: 1719716883
+    locked: 0
+  - name: Ball
+    uniqueID: 2489059741
+    locked: 0
+  - name: Bubble
+    uniqueID: 2753613465
+    locked: 0
+  - name: Controller
+    uniqueID: 2656496755
+    locked: 0

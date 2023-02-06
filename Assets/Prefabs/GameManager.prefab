@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3589824629994522712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3589824629994522718}
+  - component: {fileID: 3589824629994522713}
+  - component: {fileID: 7334824029423088066}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3589824629994522718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3589824629994522712}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3589824629994522713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3589824629994522712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 656f376f89d644e48b11b0c2ab7da846, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelList:
+  - {fileID: 11400000, guid: 26f4ca25187c8764f88c6b5c83c87126, type: 2}
+  - {fileID: 11400000, guid: 3983fd84e4b681e4fb199f62b478c27f, type: 2}
+  - {fileID: 11400000, guid: f253ae5b3bf461c48a50da1a6705b5a1, type: 2}
+  - {fileID: 11400000, guid: a2971b6fa08cb3a4f9312efeeb001209, type: 2}
+  - {fileID: 11400000, guid: 0c76d08f421957b49a380207ac3e7318, type: 2}
+  - {fileID: 11400000, guid: b3150cbcdc5ba9440958b11185383611, type: 2}
+  - {fileID: 11400000, guid: 19ce9171756e2e14496b3f4144c63df7, type: 2}
+  - {fileID: 11400000, guid: ba5c5835889cf6d46a3176fcf6933b20, type: 2}
+  - {fileID: 11400000, guid: 9f918c84f5c9f0c44a18f2513e4bdd39, type: 2}
+  - {fileID: 11400000, guid: 055b3f4c282965f42abc22725fe75709, type: 2}
+  curLevel: 0
+  isPause: 0
+--- !u!114 &7334824029423088066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3589824629994522712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9440ed17aca81654cb77916f3d24e976, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundList:
+  - name: EndLevel
+    clip: {fileID: 8300000, guid: 63b00a9bb31aa2e42aae7bfe3fa183c3, type: 3}
+    pitch: 1
